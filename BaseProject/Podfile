@@ -1,0 +1,6 @@
+target 'BaseProject' do
+    pod 'AFNetworking'
+    pod 'SVProgressHUD'
+    pod 'Masonry'
+    pod 'RTRootNavigationController'
+end
