@@ -11,6 +11,7 @@
 		F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00E31E1645A00053C7A9 /* WMY_InitData.m */; };
 		F76E00EF1E1645A00053C7A9 /* WMY_ThirdPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00E51E1645A00053C7A9 /* WMY_ThirdPartService.m */; };
 		F76E00FA1E1646550053C7A9 /* UIViewController+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00F61E1646550053C7A9 /* UIViewController+runtime.m */; };
+		F76E01001E1652730053C7A9 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00FF1E1652730053C7A9 /* NavigationController.m */; };
 		F77CF6681DD591F10080EEB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF6671DD591F10080EEB1 /* main.m */; };
 		F77CF66B1DD591F10080EEB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF66A1DD591F10080EEB1 /* AppDelegate.m */; };
 		F77CF66E1DD591F10080EEB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF66D1DD591F10080EEB1 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 		F76E00E51E1645A00053C7A9 /* WMY_ThirdPartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMY_ThirdPartService.m; sourceTree = "<group>"; };
 		F76E00F51E1646550053C7A9 /* UIViewController+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+runtime.h"; sourceTree = "<group>"; };
 		F76E00F61E1646550053C7A9 /* UIViewController+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+runtime.m"; sourceTree = "<group>"; };
+		F76E00FE1E1652730053C7A9 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		F76E00FF1E1652730053C7A9 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		F77CF6631DD591F10080EEB1 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77CF6671DD591F10080EEB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F77CF6691DD591F10080EEB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 		F76E00F21E1646550053C7A9 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F76E00FE1E1652730053C7A9 /* NavigationController.h */,
+				F76E00FF1E1652730053C7A9 /* NavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 				F77CF66B1DD591F10080EEB1 /* AppDelegate.m in Sources */,
 				F77CF6681DD591F10080EEB1 /* main.m in Sources */,
 				F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */,
+				F76E01001E1652730053C7A9 /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
