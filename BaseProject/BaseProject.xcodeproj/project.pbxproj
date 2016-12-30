@@ -12,6 +12,18 @@
 		F76E00EF1E1645A00053C7A9 /* WMY_ThirdPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00E51E1645A00053C7A9 /* WMY_ThirdPartService.m */; };
 		F76E00FA1E1646550053C7A9 /* UIViewController+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00F61E1646550053C7A9 /* UIViewController+runtime.m */; };
 		F76E01001E1652730053C7A9 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00FF1E1652730053C7A9 /* NavigationController.m */; };
+		F76E01051E1654100053C7A9 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01041E1654100053C7A9 /* Tools.m */; };
+		F76E01081E1654190053C7A9 /* DocManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01071E1654190053C7A9 /* DocManager.m */; };
+		F76E010E1E16549F0053C7A9 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E010C1E16549F0053C7A9 /* PreviewViewController.m */; };
+		F76E010F1E16549F0053C7A9 /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E010D1E16549F0053C7A9 /* PreviewViewController.xib */; };
+		F76E01131E1654A80053C7A9 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01111E1654A80053C7A9 /* SideViewController.m */; };
+		F76E01141E1654A80053C7A9 /* SideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E01121E1654A80053C7A9 /* SideViewController.xib */; };
+		F76E01181E1654B60053C7A9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01161E1654B60053C7A9 /* LoginViewController.m */; };
+		F76E01191E1654B60053C7A9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E01171E1654B60053C7A9 /* LoginViewController.xib */; };
+		F76E01201E1654D20053C7A9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E011E1E1654D20053C7A9 /* RootViewController.m */; };
+		F76E01211E1654D20053C7A9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E011F1E1654D20053C7A9 /* RootViewController.xib */; };
+		F76E01251E1654DF0053C7A9 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01231E1654DF0053C7A9 /* MineViewController.m */; };
+		F76E01261E1654DF0053C7A9 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E01241E1654DF0053C7A9 /* MineViewController.xib */; };
 		F77CF6681DD591F10080EEB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF6671DD591F10080EEB1 /* main.m */; };
 		F77CF66B1DD591F10080EEB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF66A1DD591F10080EEB1 /* AppDelegate.m */; };
 		F77CF66E1DD591F10080EEB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF66D1DD591F10080EEB1 /* ViewController.m */; };
@@ -32,6 +44,29 @@
 		F76E00F61E1646550053C7A9 /* UIViewController+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+runtime.m"; sourceTree = "<group>"; };
 		F76E00FE1E1652730053C7A9 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		F76E00FF1E1652730053C7A9 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		F76E01011E1653570053C7A9 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		F76E01021E1653660053C7A9 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiKey.h; sourceTree = "<group>"; };
+		F76E01031E1654100053C7A9 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		F76E01041E1654100053C7A9 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		F76E01061E1654190053C7A9 /* DocManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocManager.h; sourceTree = "<group>"; };
+		F76E01071E1654190053C7A9 /* DocManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocManager.m; sourceTree = "<group>"; };
+		F76E01091E1654680053C7A9 /* DatabaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseHeader.h; sourceTree = "<group>"; };
+		F76E010A1E1654780053C7A9 /* NetworkingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingHeader.h; sourceTree = "<group>"; };
+		F76E010B1E16549F0053C7A9 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		F76E010C1E16549F0053C7A9 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		F76E010D1E16549F0053C7A9 /* PreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewViewController.xib; sourceTree = "<group>"; };
+		F76E01101E1654A80053C7A9 /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideViewController.h; sourceTree = "<group>"; };
+		F76E01111E1654A80053C7A9 /* SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideViewController.m; sourceTree = "<group>"; };
+		F76E01121E1654A80053C7A9 /* SideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideViewController.xib; sourceTree = "<group>"; };
+		F76E01151E1654B60053C7A9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F76E01161E1654B60053C7A9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F76E01171E1654B60053C7A9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F76E011D1E1654D20053C7A9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F76E011E1E1654D20053C7A9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F76E011F1E1654D20053C7A9 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F76E01221E1654DF0053C7A9 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		F76E01231E1654DF0053C7A9 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		F76E01241E1654DF0053C7A9 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
 		F77CF6631DD591F10080EEB1 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77CF6671DD591F10080EEB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F77CF6691DD591F10080EEB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +133,7 @@
 		F76E00E61E1645A00053C7A9 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				F76E01091E1654680053C7A9 /* DatabaseHeader.h */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -105,6 +141,7 @@
 		F76E00E71E1645A00053C7A9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				F76E010A1E1654780053C7A9 /* NetworkingHeader.h */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -112,11 +149,11 @@
 		F76E00E81E1645A00053C7A9 /* Work */ = {
 			isa = PBXGroup;
 			children = (
+				F76E00EC1E1645A00053C7A9 /* Preview */,
+				F76E00ED1E1645A00053C7A9 /* Side */,
 				F76E00E91E1645A00053C7A9 /* Login */,
 				F76E00EA1E1645A00053C7A9 /* Main */,
 				F76E00EB1E1645A00053C7A9 /* Mine */,
-				F76E00EC1E1645A00053C7A9 /* Preview */,
-				F76E00ED1E1645A00053C7A9 /* Side */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -124,6 +161,9 @@
 		F76E00E91E1645A00053C7A9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				F76E01151E1654B60053C7A9 /* LoginViewController.h */,
+				F76E01161E1654B60053C7A9 /* LoginViewController.m */,
+				F76E01171E1654B60053C7A9 /* LoginViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -131,6 +171,9 @@
 		F76E00EA1E1645A00053C7A9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F76E011D1E1654D20053C7A9 /* RootViewController.h */,
+				F76E011E1E1654D20053C7A9 /* RootViewController.m */,
+				F76E011F1E1654D20053C7A9 /* RootViewController.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -138,6 +181,9 @@
 		F76E00EB1E1645A00053C7A9 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				F76E01221E1654DF0053C7A9 /* MineViewController.h */,
+				F76E01231E1654DF0053C7A9 /* MineViewController.m */,
+				F76E01241E1654DF0053C7A9 /* MineViewController.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -145,6 +191,9 @@
 		F76E00EC1E1645A00053C7A9 /* Preview */ = {
 			isa = PBXGroup;
 			children = (
+				F76E010B1E16549F0053C7A9 /* PreviewViewController.h */,
+				F76E010C1E16549F0053C7A9 /* PreviewViewController.m */,
+				F76E010D1E16549F0053C7A9 /* PreviewViewController.xib */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -152,6 +201,9 @@
 		F76E00ED1E1645A00053C7A9 /* Side */ = {
 			isa = PBXGroup;
 			children = (
+				F76E01101E1654A80053C7A9 /* SideViewController.h */,
+				F76E01111E1654A80053C7A9 /* SideViewController.m */,
+				F76E01121E1654A80053C7A9 /* SideViewController.xib */,
 			);
 			path = Side;
 			sourceTree = "<group>";
@@ -211,6 +263,8 @@
 		F76E00F81E1646550053C7A9 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				F76E01021E1653660053C7A9 /* ApiKey.h */,
+				F76E01011E1653570053C7A9 /* AppDefine.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -218,6 +272,10 @@
 		F76E00F91E1646550053C7A9 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F76E01031E1654100053C7A9 /* Tools.h */,
+				F76E01041E1654100053C7A9 /* Tools.m */,
+				F76E01061E1654190053C7A9 /* DocManager.h */,
+				F76E01071E1654190053C7A9 /* DocManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -362,8 +420,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F77CF6761DD591F10080EEB1 /* LaunchScreen.storyboard in Resources */,
+				F76E01141E1654A80053C7A9 /* SideViewController.xib in Resources */,
+				F76E01191E1654B60053C7A9 /* LoginViewController.xib in Resources */,
 				F77CF6731DD591F10080EEB1 /* Assets.xcassets in Resources */,
+				F76E01211E1654D20053C7A9 /* RootViewController.xib in Resources */,
 				F77CF6711DD591F10080EEB1 /* Main.storyboard in Resources */,
+				F76E010F1E16549F0053C7A9 /* PreviewViewController.xib in Resources */,
+				F76E01261E1654DF0053C7A9 /* MineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +486,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76E00EF1E1645A00053C7A9 /* WMY_ThirdPartService.m in Sources */,
+				F76E01251E1654DF0053C7A9 /* MineViewController.m in Sources */,
 				F76E00FA1E1646550053C7A9 /* UIViewController+runtime.m in Sources */,
+				F76E01081E1654190053C7A9 /* DocManager.m in Sources */,
 				F77CF66E1DD591F10080EEB1 /* ViewController.m in Sources */,
+				F76E01051E1654100053C7A9 /* Tools.m in Sources */,
 				F77CF66B1DD591F10080EEB1 /* AppDelegate.m in Sources */,
 				F77CF6681DD591F10080EEB1 /* main.m in Sources */,
+				F76E01131E1654A80053C7A9 /* SideViewController.m in Sources */,
+				F76E01181E1654B60053C7A9 /* LoginViewController.m in Sources */,
+				F76E010E1E16549F0053C7A9 /* PreviewViewController.m in Sources */,
+				F76E01201E1654D20053C7A9 /* RootViewController.m in Sources */,
 				F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */,
 				F76E01001E1652730053C7A9 /* NavigationController.m in Sources */,
 			);
