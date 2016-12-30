@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  BaseProject
+//
+//  Created by Wmy on 2016/12/30.
+//  Copyright © 2016年 Wmy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "AppDefine.h"
+
+
+#endif /* PrefixHeader_pch */

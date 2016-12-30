@@ -36,8 +36,7 @@
 
 + (void)initialize {
     UINavigationBar *navBar = [UINavigationBar appearance];
-//    navBar.barTintColor = [UIColor colorWithRed:73 green:200 blue:164 alpha:1.];
-    navBar.barTintColor = [UIColor redColor];
+    navBar.barTintColor = [UIColor colorWithRed:73 green:200 blue:164 alpha:1.];
     navBar.translucent = NO;
     
     [navBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
