@@ -13,7 +13,7 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSLog(@"%s", __func__);
+        NSLog(@"数据初始化");
         [self initDB];
         [self GetServerStatus];
     });

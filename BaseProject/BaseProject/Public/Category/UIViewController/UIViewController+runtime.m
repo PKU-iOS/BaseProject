@@ -56,17 +56,14 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector) {
 }
 
 - (void)inject_viewDidLoad {
-    NSLog(@"%s", __func__);
     
 }
 
 - (void)inject_viewWillAppear:(BOOL)animated {
-    NSLog(@"%s", __func__);
     
 }
 
 - (void)inject_viewWillDisappear:(BOOL)animated {
-    NSLog(@"%s", __func__);
     
 }
 

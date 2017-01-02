@@ -6,8 +6,19 @@
 //  Copyright © 2016年 Wmy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RTRootNavigationController.h"
 
-@interface NavigationController : UINavigationController
+@interface NavigationController : RTRootNavigationController
 
+@end
+
+
+@interface NavigationController (PushExt)
+- (void)pushViewController:(NSString *)controllerName parameters:(id)parameters;
+@end
+
+
+@interface NavigationController (GoBackExt)
+- (void)goBack;
+- (void)goBackAnimated:(BOOL)animated;
 @end

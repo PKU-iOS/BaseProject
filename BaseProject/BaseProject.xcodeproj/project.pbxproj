@@ -30,6 +30,9 @@
 		F77CF6711DD591F10080EEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77CF66F1DD591F10080EEB1 /* Main.storyboard */; };
 		F77CF6731DD591F10080EEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77CF6721DD591F10080EEB1 /* Assets.xcassets */; };
 		F77CF6761DD591F10080EEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77CF6741DD591F10080EEB1 /* LaunchScreen.storyboard */; };
+		F781C6371E1A5F7400C1ADD6 /* ViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6361E1A5F7400C1ADD6 /* ViewController_1.m */; };
+		F781C63A1E1A5FDC00C1ADD6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */; };
+		F781C63E1E1A68D200C1ADD6 /* NSObject+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C63D1E1A68D200C1ADD6 /* NSObject+Json.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +81,12 @@
 		F77CF6721DD591F10080EEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77CF6751DD591F10080EEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F77CF6771DD591F10080EEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F781C6351E1A5F7400C1ADD6 /* ViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_1.h; sourceTree = "<group>"; };
+		F781C6361E1A5F7400C1ADD6 /* ViewController_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_1.m; sourceTree = "<group>"; };
+		F781C6381E1A5FDC00C1ADD6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F781C63C1E1A68D200C1ADD6 /* NSObject+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
+		F781C63D1E1A68D200C1ADD6 /* NSObject+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Json.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +242,8 @@
 			children = (
 				F76E00FE1E1652730053C7A9 /* NavigationController.h */,
 				F76E00FF1E1652730053C7A9 /* NavigationController.m */,
+				F781C6381E1A5FDC00C1ADD6 /* BaseViewController.h */,
+				F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -240,6 +251,7 @@
 		F76E00F31E1646550053C7A9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				F781C63B1E1A68A300C1ADD6 /* NSObject */,
 				F76E00F41E1646550053C7A9 /* UIViewController */,
 			);
 			path = Category;
@@ -310,6 +322,8 @@
 				F77CF66A1DD591F10080EEB1 /* AppDelegate.m */,
 				F77CF66C1DD591F10080EEB1 /* ViewController.h */,
 				F77CF66D1DD591F10080EEB1 /* ViewController.m */,
+				F781C6351E1A5F7400C1ADD6 /* ViewController_1.h */,
+				F781C6361E1A5F7400C1ADD6 /* ViewController_1.m */,
 				F77CF66F1DD591F10080EEB1 /* Main.storyboard */,
 				F77CF6661DD591F10080EEB1 /* Supporting Files */,
 			);
@@ -351,6 +365,15 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		F781C63B1E1A68A300C1ADD6 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				F781C63C1E1A68D200C1ADD6 /* NSObject+Json.h */,
+				F781C63D1E1A68D200C1ADD6 /* NSObject+Json.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		FF222BB8AE6651945EFF71BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,7 +411,7 @@
 		F77CF65B1DD591F10080EEB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Wmy;
 				TargetAttributes = {
 					F77CF6621DD591F10080EEB1 = {
@@ -487,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F781C6371E1A5F7400C1ADD6 /* ViewController_1.m in Sources */,
 				F76E00EF1E1645A00053C7A9 /* WMY_ThirdPartService.m in Sources */,
 				F76E01251E1654DF0053C7A9 /* MineViewController.m in Sources */,
 				F76E00FA1E1646550053C7A9 /* UIViewController+runtime.m in Sources */,
@@ -495,9 +519,11 @@
 				F76E01051E1654100053C7A9 /* Tools.m in Sources */,
 				F77CF66B1DD591F10080EEB1 /* AppDelegate.m in Sources */,
 				F77CF6681DD591F10080EEB1 /* main.m in Sources */,
+				F781C63A1E1A5FDC00C1ADD6 /* BaseViewController.m in Sources */,
 				F76E01131E1654A80053C7A9 /* SideViewController.m in Sources */,
 				F76E01181E1654B60053C7A9 /* LoginViewController.m in Sources */,
 				F76E010E1E16549F0053C7A9 /* PreviewViewController.m in Sources */,
+				F781C63E1E1A68D200C1ADD6 /* NSObject+Json.m in Sources */,
 				F76E01201E1654D20053C7A9 /* RootViewController.m in Sources */,
 				F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */,
 				F76E01001E1652730053C7A9 /* NavigationController.m in Sources */,
@@ -544,6 +570,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -592,6 +619,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -624,6 +652,7 @@
 				DEVELOPMENT_TEAM = 55352BP77R;
 				GCC_PREFIX_HEADER = BaseProject/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sharing.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -638,6 +667,7 @@
 				DEVELOPMENT_TEAM = 55352BP77R;
 				GCC_PREFIX_HEADER = BaseProject/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sharing.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -146,7 +146,8 @@
  DEBUG
  */
 #ifdef DEBUG
-    #define NSLog(...) NSLog(@"=== log:\n%s 第%d行 \n%@\n\n", __func__, __LINE__, [NSString stringWithFormat:__VA_ARGS__])
+    #define NSLog(...) NSLog(@"=== log:\n%s 第%d行 \n%@\n\n", \
+                        __func__, __LINE__, [NSString stringWithFormat:__VA_ARGS__])
     #define debugMethod() NSLog(@"%s", __func__)
 #else
     #define NSLog(...)

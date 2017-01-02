@@ -21,5 +21,13 @@
 }
 
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    [self.navigationController pushViewController:@"ViewController_1"
+//                                       parameters:@{@"id":@"123056", @"name":@"wmy"}];
+    [self.base_navigationController pushViewController:@"ViewController_1"
+                                            parameters:@{@"id":@"123056", @"name":@"wmy"}];
+    
+}
+
 
 @end

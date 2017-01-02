@@ -7,6 +7,7 @@
 //
 
 #import "NavigationController.h"
+#import "BaseViewController.h"
 
 @interface NavigationController ()
 
@@ -35,16 +36,20 @@
 
 
 + (void)initialize {
-    UINavigationBar *navBar = [UINavigationBar appearance];
-    navBar.barTintColor = [UIColor colorWithRed:73 green:200 blue:164 alpha:1.];
-    navBar.translucent = NO;
     
-    [navBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-    [navBar setShadowImage:[UIImage new]];
+    UINavigationBar *navBar = [UINavigationBar appearance];
+    navBar.barTintColor = COLOR_Theme;
+    // 隐藏shadowImage
+//    navBar.translucent = NO;
+//    [navBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+//    [navBar setShadowImage:[UIImage new]];
     
     NSDictionary *titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor],
                                           NSFontAttributeName : [UIFont boldSystemFontOfSize:18]};
     navBar.titleTextAttributes = titleTextAttributes;
+    
+    UIBarButtonItem *item = [UIBarButtonItem appearance];
+    item.tintColor = [UIColor whiteColor];
 }
 
 #pragma mark - 跳转
@@ -52,7 +57,7 @@
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"go_back"]
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"goBack"]
                                                                                            style:UIBarButtonItemStylePlain
                                                                                           target:self
                                                                                           action:@selector(goBack)];
@@ -60,19 +65,34 @@
     [super pushViewController:viewController animated:animated];
 }
 
-#pragma mark - 通过控制器名称跳转
+@end
 
-- (void)pushViewControllerWithName:(NSString *)controllerName {
+
+@implementation NavigationController (PushExt)
+
+- (void)pushViewController:(NSString *)controllerName parameters:(id)parameters {
     Class class = NSClassFromString(controllerName);
-    if (class) {
-        UIViewController *vc = [[class alloc] init];
-        [self pushViewController:vc animated:YES];
-    }else {
+    if (!class) {
         NSLog(@"没有该控制器 %@", controllerName);
+    }
+    else {
+        UIViewController *toVC = [[class alloc] init];
+        if (parameters) {
+            if (![toVC isKindOfClass:[BaseViewController class]]) {
+                NSLog(@"%@ 没有继承于 BaseViewController", controllerName);
+                return;
+            }
+            
+            ((BaseViewController *)toVC).params = [parameters copy];
+        }
+        [self pushViewController:toVC animated:YES];
     }
 }
 
-#pragma mark - 返回
+@end
+
+
+@implementation NavigationController (GoBackExt)
 
 - (void)goBack {
     [self goBackAnimated:YES];
@@ -82,9 +102,13 @@
     if (self.presentingViewController) {
         [self dismissViewControllerAnimated:animated completion:nil];
     } else {
-        NSAssert(self, @"self.navigationController == nil");
+#if DEBUG
+        NSAssert(self, @"self == nil");
+#endif
         if (self) {
             [self popViewControllerAnimated:animated];
+        }else {
+            NSLog(@"没有导航控制器");
         }
     }
 }

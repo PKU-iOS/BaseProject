@@ -14,7 +14,7 @@
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSLog(@"%s", __func__);
+        NSLog(@"三方类初始化");
         
         
     });
