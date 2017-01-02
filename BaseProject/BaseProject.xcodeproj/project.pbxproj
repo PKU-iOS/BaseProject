@@ -33,6 +33,10 @@
 		F781C6371E1A5F7400C1ADD6 /* ViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6361E1A5F7400C1ADD6 /* ViewController_1.m */; };
 		F781C63A1E1A5FDC00C1ADD6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */; };
 		F781C63E1E1A68D200C1ADD6 /* NSObject+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C63D1E1A68D200C1ADD6 /* NSObject+Json.m */; };
+		F781C6421E1A871000C1ADD6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6401E1A871000C1ADD6 /* MainViewController.m */; };
+		F781C6431E1A871000C1ADD6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F781C6411E1A871000C1ADD6 /* MainViewController.xib */; };
+		F781C64B1E1A899C00C1ADD6 /* UserDefaultsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C64A1E1A899C00C1ADD6 /* UserDefaultsKey.m */; };
+		F781C6521E1A8B0A00C1ADD6 /* NotificationKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6511E1A8B0A00C1ADD6 /* NotificationKey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +52,6 @@
 		F76E00FE1E1652730053C7A9 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		F76E00FF1E1652730053C7A9 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		F76E01011E1653570053C7A9 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
-		F76E01021E1653660053C7A9 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiKey.h; sourceTree = "<group>"; };
 		F76E01031E1654100053C7A9 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		F76E01041E1654100053C7A9 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		F76E01061E1654190053C7A9 /* DocManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocManager.h; sourceTree = "<group>"; };
@@ -87,6 +90,16 @@
 		F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F781C63C1E1A68D200C1ADD6 /* NSObject+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
 		F781C63D1E1A68D200C1ADD6 /* NSObject+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Json.m"; sourceTree = "<group>"; };
+		F781C63F1E1A871000C1ADD6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F781C6401E1A871000C1ADD6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F781C6411E1A871000C1ADD6 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F781C6471E1A897400C1ADD6 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiKey.h; sourceTree = "<group>"; };
+		F781C6481E1A897E00C1ADD6 /* HttpDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpDefine.h; sourceTree = "<group>"; };
+		F781C6491E1A899C00C1ADD6 /* UserDefaultsKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKey.h; sourceTree = "<group>"; };
+		F781C64A1E1A899C00C1ADD6 /* UserDefaultsKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsKey.m; sourceTree = "<group>"; };
+		F781C64F1E1A8ACF00C1ADD6 /* ConstHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstHeader.h; sourceTree = "<group>"; };
+		F781C6501E1A8B0A00C1ADD6 /* NotificationKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationKey.h; sourceTree = "<group>"; };
+		F781C6511E1A8B0A00C1ADD6 /* NotificationKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationKey.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +137,8 @@
 		F76E00E01E1645A00053C7A9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F781C6461E1A894D00C1ADD6 /* Macros */,
+				F781C6451E1A894D00C1ADD6 /* Const */,
 				F76E00E11E1645A00053C7A9 /* Init */,
 			);
 			path = Common;
@@ -184,6 +199,9 @@
 				F76E011D1E1654D20053C7A9 /* RootViewController.h */,
 				F76E011E1E1654D20053C7A9 /* RootViewController.m */,
 				F76E011F1E1654D20053C7A9 /* RootViewController.xib */,
+				F781C63F1E1A871000C1ADD6 /* MainViewController.h */,
+				F781C6401E1A871000C1ADD6 /* MainViewController.m */,
+				F781C6411E1A871000C1ADD6 /* MainViewController.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -276,7 +294,6 @@
 		F76E00F81E1646550053C7A9 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				F76E01021E1653660053C7A9 /* ApiKey.h */,
 				F76E01011E1653570053C7A9 /* AppDefine.h */,
 			);
 			path = Macros;
@@ -374,6 +391,27 @@
 			path = NSObject;
 			sourceTree = "<group>";
 		};
+		F781C6451E1A894D00C1ADD6 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				F781C64F1E1A8ACF00C1ADD6 /* ConstHeader.h */,
+				F781C6491E1A899C00C1ADD6 /* UserDefaultsKey.h */,
+				F781C64A1E1A899C00C1ADD6 /* UserDefaultsKey.m */,
+				F781C6501E1A8B0A00C1ADD6 /* NotificationKey.h */,
+				F781C6511E1A8B0A00C1ADD6 /* NotificationKey.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		F781C6461E1A894D00C1ADD6 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				F781C6471E1A897400C1ADD6 /* ApiKey.h */,
+				F781C6481E1A897E00C1ADD6 /* HttpDefine.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
 		FF222BB8AE6651945EFF71BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,6 +486,7 @@
 				F76E01141E1654A80053C7A9 /* SideViewController.xib in Resources */,
 				F76E01191E1654B60053C7A9 /* LoginViewController.xib in Resources */,
 				F77CF6731DD591F10080EEB1 /* Assets.xcassets in Resources */,
+				F781C6431E1A871000C1ADD6 /* MainViewController.xib in Resources */,
 				F76E01211E1654D20053C7A9 /* RootViewController.xib in Resources */,
 				F77CF6711DD591F10080EEB1 /* Main.storyboard in Resources */,
 				F76E010F1E16549F0053C7A9 /* PreviewViewController.xib in Resources */,
@@ -523,9 +562,12 @@
 				F76E01131E1654A80053C7A9 /* SideViewController.m in Sources */,
 				F76E01181E1654B60053C7A9 /* LoginViewController.m in Sources */,
 				F76E010E1E16549F0053C7A9 /* PreviewViewController.m in Sources */,
+				F781C6421E1A871000C1ADD6 /* MainViewController.m in Sources */,
 				F781C63E1E1A68D200C1ADD6 /* NSObject+Json.m in Sources */,
+				F781C6521E1A8B0A00C1ADD6 /* NotificationKey.m in Sources */,
 				F76E01201E1654D20053C7A9 /* RootViewController.m in Sources */,
 				F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */,
+				F781C64B1E1A899C00C1ADD6 /* UserDefaultsKey.m in Sources */,
 				F76E01001E1652730053C7A9 /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

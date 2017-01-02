@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Wmy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface RootViewController : UIViewController
+@interface RootViewController : BaseViewController
 
 @end

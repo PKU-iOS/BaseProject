@@ -1,9 +1,10 @@
+
 //
 //  ApiKey.h
 //  BaseProject
 //
-//  Created by Wmy on 2016/12/30.
-//  Copyright © 2016年 Wmy. All rights reserved.
+//  Created by Wmy on 2017/1/2.
+//  Copyright © 2017年 Wmy. All rights reserved.
 //
 
 #ifndef ApiKey_h
