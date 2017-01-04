@@ -7,6 +7,7 @@
 //
 
 #import "GuideViewController.h"
+#import "StartInitialization.h"
 
 @interface GuideViewController () <UIScrollViewDelegate>
 @property (nonatomic, weak) IBOutlet UIScrollView *guideScrollV;
@@ -37,7 +38,8 @@
 - (IBAction)action_enterApp:(id)sender {
 //    [kUserDefaults setBool:YES forKey:kUD_GUIDEPAGE_ISSKIP];
 //    [kUserDefaults synchronize];
-    [kNotifCenter postNotificationName:kNC_GuideVC_RemoveNotification object:nil];
+//    [kNotifCenter postNotificationName:kNC_GuideVC_RemoveNotification object:nil];
+    [StartInitialization removeGuideVC];
 }
 
 #pragma mark - UIScrollViewDelegate

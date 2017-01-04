@@ -20,11 +20,11 @@
     // 启动设置
     {
         self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        self.window.tag = 88;
+        self.window.tag = kRootWindowTag;
         if (![kUserDefaults boolForKey:kUD_GUIDEPAGE_ISSKIP]) {
             // 引导页window
             self.guideWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-            self.guideWindow.tag = 99;
+            self.guideWindow.tag = kGuideWindowTag;
         }
         [StartInitialization setStartupMode:STARTUP_MODE_LOGIN_MUST];
     }

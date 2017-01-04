@@ -7,19 +7,31 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AppDelegate.h"
+
+static NSInteger kRootWindowTag  = 88;  // window的tag值
+static NSInteger kGuideWindowTag = 99;  // 引导视图window的tag值
+
+/**
+ app启动类型
+ 
+ - STARTUP_MODE_LOGIN_MUST : 登录后才可使用
+ - STARTUP_MODE_LOGIN_OPTIONAL : 可选登录
+ */
+typedef enum _STARTUP_MODE_ {
+    STARTUP_MODE_LOGIN_MUST = 0,
+    STARTUP_MODE_LOGIN_OPTIONAL = 1,
+}STARTUP_MODE;
 
 @interface StartInitialization : NSObject
 
-/**
- 设置app启动类型
-
- @param startupMode 登录使用/可选登录使用
- */
+// 设置app启动类型
 + (void)setStartupMode:(STARTUP_MODE)startupMode;
-
-// 以下方法仅对启动类型为 STARTUP_MODE_LOGIN_MUST 的方式可使用，或使用通知的方式
-//+ (void)showLoginVC;
-//+ (void)showRootVC;
+// 移除引导界面
++ (void)removeGuideVC;
+/* 以下方法仅对启动类型为 STARTUP_MODE_LOGIN_MUST 的方式可使用 */
+// 显示登录界面
++ (void)showLoginVC;
+// 显示跟视图界面
++ (void)showRootVC;
 
 @end

@@ -35,11 +35,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum _STARTUP_MODE_ {
-    STARTUP_MODE_LOGIN_MUST = 0,
-    STARTUP_MODE_LOGIN_OPTIONAL = 1,
-}STARTUP_MODE;
-
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

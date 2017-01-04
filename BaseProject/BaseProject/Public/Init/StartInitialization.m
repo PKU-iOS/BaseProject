@@ -32,6 +32,10 @@
     [[StartInitialization sharedInstance] startup:startupMode];
 }
 
++ (void)removeGuideVC {
+    [[StartInitialization sharedInstance] removeGuideVC];
+}
+
 + (void)showLoginVC {
     [[StartInitialization sharedInstance] showLoginVC];
 }
@@ -51,8 +55,6 @@
     switch (mode) {
         case STARTUP_MODE_LOGIN_MUST:
         {
-            [self addLoginVCNotification];
-            [self addRootVCNotification];
             if (![kUserDefaults boolForKey:kUD_USER_ONLINE]) {
                 [self showLoginVC];
             }else {
@@ -72,44 +74,21 @@
 
     if (![kUserDefaults boolForKey:kUD_GUIDEPAGE_ISSKIP]) {
         // 显示引导视图
-        [self addGuideNotification];
         [self showGuideVC];
     }
     
 }
 
-#pragma mark - 通知
-- (void)addGuideNotification {
-    [kNotifCenter addObserver:self selector:@selector(nc_removeGuideVC)
-                         name:kNC_GuideVC_RemoveNotification object:nil];
-}
-
-- (void)removeGuideNotification {
-    [kNotifCenter removeObserver:self name:kNC_GuideVC_RemoveNotification object:nil];
-}
-
-- (void)addLoginVCNotification {
-    [kNotifCenter addObserver:self selector:@selector(showLoginVC)
-                         name:kNC_LoginVC_ShowNotification object:nil];
-}
-
-- (void)addRootVCNotification {
-    [kNotifCenter addObserver:self selector:@selector(showRootVC)
-                         name:kNC_RootVC_ShowNotification object:nil];
-}
-
-
 #pragma mark - 通知响应
 
-- (void)nc_removeGuideVC {
-    [self removeGuideNotification];
+- (void)removeGuideVC {
     UIWindow *window;
     UIWindow *guideWindow;
     for (UIWindow *view in [kApplication windows]) {
-        if (99 == view.tag) {
+        if (kGuideWindowTag == view.tag) {
             guideWindow = view;
         }
-        if (88 == view.tag) {
+        if (kRootWindowTag == view.tag) {
             window = view;
         }
     }
@@ -130,9 +109,12 @@
 - (void)showGuideVC {
     UIWindow *guideWindow;
     for (UIWindow *view in [kApplication windows]) {
-        if (99 == view.tag) {
+        if (kGuideWindowTag == view.tag) {
             guideWindow = view;
         }
+    }
+    if (!guideWindow) {
+        return;
     }
     guideWindow.windowLevel = UIWindowLevelAlert;
     
@@ -146,10 +128,13 @@
     NavigationController *nav = [[NavigationController alloc] initWithRootViewController:loginVC];
     UIWindow *window;
     for (UIWindow *view in [kApplication windows]) {
-        if (88 == view.tag) {
+        if (kRootWindowTag == view.tag) {
             window = view;
             break;
         }
+    }
+    if (!window) {
+        return;
     }
     [window setRootViewController:nav];
     [window makeKeyAndVisible];
@@ -160,10 +145,13 @@
     NavigationController *nav = [[NavigationController alloc] initWithRootViewController:rootVC];
     UIWindow *window;
     for (UIWindow *view in [kApplication windows]) {
-        if (88 == view.tag) {
+        if (kRootWindowTag == view.tag) {
             window = view;
             break;
         }
+    }
+    if (!window) {
+        return;
     }
     [window setRootViewController:nav];
     [window makeKeyAndVisible];

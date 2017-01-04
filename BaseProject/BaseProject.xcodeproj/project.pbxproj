@@ -167,9 +167,9 @@
 		F76E00E01E1645A00053C7A9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F76E00E11E1645A00053C7A9 /* Init */,
 				F781C6461E1A894D00C1ADD6 /* Macros */,
 				F781C6451E1A894D00C1ADD6 /* Const */,
-				F76E00E11E1645A00053C7A9 /* Init */,
 			);
 			path = Common;
 			sourceTree = "<group>";
