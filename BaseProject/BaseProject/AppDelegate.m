@@ -17,12 +17,22 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.guideWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    _guideWindow.tag = 100;
-    _window.tag = 88;
-
-    [StartInitialization setStartupMode:STARTUP_MODE_LOGIN_MUST];
+    // 启动设置
+    {
+        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.window.tag = 88;
+        if (![kUserDefaults boolForKey:kUD_GUIDEPAGE_ISSKIP]) {
+            // 引导页window
+            self.guideWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+            self.guideWindow.tag = 99;
+        }
+        [StartInitialization setStartupMode:STARTUP_MODE_LOGIN_MUST];
+    }
+    
+    
+    //
+    
+    
     
     [self.window makeKeyAndVisible];
     return YES;

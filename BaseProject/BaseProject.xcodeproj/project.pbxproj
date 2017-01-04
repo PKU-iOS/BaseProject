@@ -20,10 +20,6 @@
 		F76E01141E1654A80053C7A9 /* SideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E01121E1654A80053C7A9 /* SideViewController.xib */; };
 		F76E01181E1654B60053C7A9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01161E1654B60053C7A9 /* LoginViewController.m */; };
 		F76E01191E1654B60053C7A9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E01171E1654B60053C7A9 /* LoginViewController.xib */; };
-		F76E01201E1654D20053C7A9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E011E1E1654D20053C7A9 /* RootViewController.m */; };
-		F76E01211E1654D20053C7A9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E011F1E1654D20053C7A9 /* RootViewController.xib */; };
-		F76E01251E1654DF0053C7A9 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01231E1654DF0053C7A9 /* MineViewController.m */; };
-		F76E01261E1654DF0053C7A9 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76E01241E1654DF0053C7A9 /* MineViewController.xib */; };
 		F77CF6681DD591F10080EEB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF6671DD591F10080EEB1 /* main.m */; };
 		F77CF66B1DD591F10080EEB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CF66A1DD591F10080EEB1 /* AppDelegate.m */; };
 		F77CF6711DD591F10080EEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77CF66F1DD591F10080EEB1 /* Main.storyboard */; };
@@ -31,8 +27,6 @@
 		F77CF6761DD591F10080EEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77CF6741DD591F10080EEB1 /* LaunchScreen.storyboard */; };
 		F781C63A1E1A5FDC00C1ADD6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */; };
 		F781C63E1E1A68D200C1ADD6 /* NSObject+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C63D1E1A68D200C1ADD6 /* NSObject+Json.m */; };
-		F781C6421E1A871000C1ADD6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6401E1A871000C1ADD6 /* MainViewController.m */; };
-		F781C6431E1A871000C1ADD6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F781C6411E1A871000C1ADD6 /* MainViewController.xib */; };
 		F781C64B1E1A899C00C1ADD6 /* UserDefaultsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C64A1E1A899C00C1ADD6 /* UserDefaultsKey.m */; };
 		F781C6521E1A8B0A00C1ADD6 /* NotificationKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F781C6511E1A8B0A00C1ADD6 /* NotificationKey.m */; };
 		F7F8449F1E1CCDF700BCE157 /* StartInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F8449E1E1CCDF700BCE157 /* StartInitialization.m */; };
@@ -40,6 +34,17 @@
 		F7F844A61E1CD67C00BCE157 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F844A41E1CD67C00BCE157 /* LeftViewController.xib */; };
 		F7F844AA1E1CD68700BCE157 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F844A81E1CD68700BCE157 /* RightViewController.m */; };
 		F7F844AB1E1CD68700BCE157 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F844A91E1CD68700BCE157 /* RightViewController.xib */; };
+		F7F844B01E1CE02600BCE157 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F844AE1E1CE02600BCE157 /* RootViewController.m */; };
+		F7F844B11E1CE02600BCE157 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F844AF1E1CE02600BCE157 /* RootViewController.xib */; };
+		F7F844B41E1CE32600BCE157 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F844B31E1CE32600BCE157 /* TabBarController.m */; };
+		F7F844C11E1CE54E00BCE157 /* LoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F844BF1E1CE54E00BCE157 /* LoadViewController.m */; };
+		F7F844C21E1CE54E00BCE157 /* LoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F844C01E1CE54E00BCE157 /* LoadViewController.xib */; };
+		F7F844C61E1CE55F00BCE157 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F844C41E1CE55F00BCE157 /* AlbumViewController.m */; };
+		F7F844C71E1CE55F00BCE157 /* AlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F844C51E1CE55F00BCE157 /* AlbumViewController.xib */; };
+		F7F844D11E1CE59D00BCE157 /* FileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F844CF1E1CE59D00BCE157 /* FileManagerViewController.m */; };
+		F7F844D21E1CE59D00BCE157 /* FileManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F844D01E1CE59D00BCE157 /* FileManagerViewController.xib */; };
+		F7F844D61E1CE5C100BCE157 /* CloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F844D41E1CE5C100BCE157 /* CloudViewController.m */; };
+		F7F844D71E1CE5C100BCE157 /* CloudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F844D51E1CE5C100BCE157 /* CloudViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,12 +75,6 @@
 		F76E01151E1654B60053C7A9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F76E01161E1654B60053C7A9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		F76E01171E1654B60053C7A9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		F76E011D1E1654D20053C7A9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		F76E011E1E1654D20053C7A9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		F76E011F1E1654D20053C7A9 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		F76E01221E1654DF0053C7A9 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		F76E01231E1654DF0053C7A9 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
-		F76E01241E1654DF0053C7A9 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
 		F76E01271E1666150053C7A9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F77CF6631DD591F10080EEB1 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77CF6671DD591F10080EEB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,9 +88,6 @@
 		F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F781C63C1E1A68D200C1ADD6 /* NSObject+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
 		F781C63D1E1A68D200C1ADD6 /* NSObject+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Json.m"; sourceTree = "<group>"; };
-		F781C63F1E1A871000C1ADD6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		F781C6401E1A871000C1ADD6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		F781C6411E1A871000C1ADD6 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		F781C6471E1A897400C1ADD6 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiKey.h; sourceTree = "<group>"; };
 		F781C6481E1A897E00C1ADD6 /* HttpDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpDefine.h; sourceTree = "<group>"; };
 		F781C6491E1A899C00C1ADD6 /* UserDefaultsKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKey.h; sourceTree = "<group>"; };
@@ -107,6 +103,23 @@
 		F7F844A71E1CD68700BCE157 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		F7F844A81E1CD68700BCE157 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 		F7F844A91E1CD68700BCE157 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		F7F844AD1E1CE02600BCE157 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F7F844AE1E1CE02600BCE157 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F7F844AF1E1CE02600BCE157 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F7F844B21E1CE32600BCE157 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		F7F844B31E1CE32600BCE157 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		F7F844BE1E1CE54E00BCE157 /* LoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadViewController.h; sourceTree = "<group>"; };
+		F7F844BF1E1CE54E00BCE157 /* LoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadViewController.m; sourceTree = "<group>"; };
+		F7F844C01E1CE54E00BCE157 /* LoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadViewController.xib; sourceTree = "<group>"; };
+		F7F844C31E1CE55F00BCE157 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		F7F844C41E1CE55F00BCE157 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		F7F844C51E1CE55F00BCE157 /* AlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumViewController.xib; sourceTree = "<group>"; };
+		F7F844CE1E1CE59D00BCE157 /* FileManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerViewController.h; sourceTree = "<group>"; };
+		F7F844CF1E1CE59D00BCE157 /* FileManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerViewController.m; sourceTree = "<group>"; };
+		F7F844D01E1CE59D00BCE157 /* FileManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileManagerViewController.xib; sourceTree = "<group>"; };
+		F7F844D31E1CE5C100BCE157 /* CloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudViewController.h; sourceTree = "<group>"; };
+		F7F844D41E1CE5C100BCE157 /* CloudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudViewController.m; sourceTree = "<group>"; };
+		F7F844D51E1CE5C100BCE157 /* CloudViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,11 +204,14 @@
 		F76E00E81E1645A00053C7A9 /* Work */ = {
 			isa = PBXGroup;
 			children = (
+				F7F844AC1E1CE02600BCE157 /* Root */,
 				F73B3CDB1E1B4C60001AB7C7 /* Guide */,
-				F76E00ED1E1645A00053C7A9 /* Side */,
 				F76E00E91E1645A00053C7A9 /* Login */,
-				F76E00EA1E1645A00053C7A9 /* Main */,
-				F76E00EB1E1645A00053C7A9 /* Mine */,
+				F76E00ED1E1645A00053C7A9 /* Side */,
+				F7F844B51E1CE50300BCE157 /* Album */,
+				F7F844B81E1CE50300BCE157 /* Load */,
+				F7F844CD1E1CE58C00BCE157 /* File */,
+				F7F844B61E1CE50300BCE157 /* Cloud */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -208,29 +224,6 @@
 				F76E01171E1654B60053C7A9 /* LoginViewController.xib */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		F76E00EA1E1645A00053C7A9 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				F76E011D1E1654D20053C7A9 /* RootViewController.h */,
-				F76E011E1E1654D20053C7A9 /* RootViewController.m */,
-				F76E011F1E1654D20053C7A9 /* RootViewController.xib */,
-				F781C63F1E1A871000C1ADD6 /* MainViewController.h */,
-				F781C6401E1A871000C1ADD6 /* MainViewController.m */,
-				F781C6411E1A871000C1ADD6 /* MainViewController.xib */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		F76E00EB1E1645A00053C7A9 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				F76E01221E1654DF0053C7A9 /* MineViewController.h */,
-				F76E01231E1654DF0053C7A9 /* MineViewController.m */,
-				F76E01241E1654DF0053C7A9 /* MineViewController.xib */,
-			);
-			path = Mine;
 			sourceTree = "<group>";
 		};
 		F76E00ED1E1645A00053C7A9 /* Side */ = {
@@ -272,6 +265,8 @@
 				F76E00FF1E1652730053C7A9 /* NavigationController.m */,
 				F781C6381E1A5FDC00C1ADD6 /* BaseViewController.h */,
 				F781C6391E1A5FDC00C1ADD6 /* BaseViewController.m */,
+				F7F844B21E1CE32600BCE157 /* TabBarController.h */,
+				F7F844B31E1CE32600BCE157 /* TabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -447,6 +442,56 @@
 			path = Right;
 			sourceTree = "<group>";
 		};
+		F7F844AC1E1CE02600BCE157 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F7F844AD1E1CE02600BCE157 /* RootViewController.h */,
+				F7F844AE1E1CE02600BCE157 /* RootViewController.m */,
+				F7F844AF1E1CE02600BCE157 /* RootViewController.xib */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F7F844B51E1CE50300BCE157 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				F7F844C31E1CE55F00BCE157 /* AlbumViewController.h */,
+				F7F844C41E1CE55F00BCE157 /* AlbumViewController.m */,
+				F7F844C51E1CE55F00BCE157 /* AlbumViewController.xib */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		F7F844B61E1CE50300BCE157 /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				F7F844D31E1CE5C100BCE157 /* CloudViewController.h */,
+				F7F844D41E1CE5C100BCE157 /* CloudViewController.m */,
+				F7F844D51E1CE5C100BCE157 /* CloudViewController.xib */,
+			);
+			path = Cloud;
+			sourceTree = "<group>";
+		};
+		F7F844B81E1CE50300BCE157 /* Load */ = {
+			isa = PBXGroup;
+			children = (
+				F7F844BE1E1CE54E00BCE157 /* LoadViewController.h */,
+				F7F844BF1E1CE54E00BCE157 /* LoadViewController.m */,
+				F7F844C01E1CE54E00BCE157 /* LoadViewController.xib */,
+			);
+			path = Load;
+			sourceTree = "<group>";
+		};
+		F7F844CD1E1CE58C00BCE157 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				F7F844CE1E1CE59D00BCE157 /* FileManagerViewController.h */,
+				F7F844CF1E1CE59D00BCE157 /* FileManagerViewController.m */,
+				F7F844D01E1CE59D00BCE157 /* FileManagerViewController.xib */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
 		FF222BB8AE6651945EFF71BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,17 +562,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F844C71E1CE55F00BCE157 /* AlbumViewController.xib in Resources */,
 				F77CF6761DD591F10080EEB1 /* LaunchScreen.storyboard in Resources */,
+				F7F844D71E1CE5C100BCE157 /* CloudViewController.xib in Resources */,
 				F76E01141E1654A80053C7A9 /* SideViewController.xib in Resources */,
+				F7F844B11E1CE02600BCE157 /* RootViewController.xib in Resources */,
 				F76E01191E1654B60053C7A9 /* LoginViewController.xib in Resources */,
 				F7F844AB1E1CD68700BCE157 /* RightViewController.xib in Resources */,
 				F73B3CE01E1B4E33001AB7C7 /* GuideViewController.xib in Resources */,
+				F7F844C21E1CE54E00BCE157 /* LoadViewController.xib in Resources */,
+				F7F844D21E1CE59D00BCE157 /* FileManagerViewController.xib in Resources */,
 				F77CF6731DD591F10080EEB1 /* Assets.xcassets in Resources */,
-				F781C6431E1A871000C1ADD6 /* MainViewController.xib in Resources */,
-				F76E01211E1654D20053C7A9 /* RootViewController.xib in Resources */,
 				F7F844A61E1CD67C00BCE157 /* LeftViewController.xib in Resources */,
 				F77CF6711DD591F10080EEB1 /* Main.storyboard in Resources */,
-				F76E01261E1654DF0053C7A9 /* MineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,10 +634,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76E00EF1E1645A00053C7A9 /* WMY_ThirdPartService.m in Sources */,
-				F76E01251E1654DF0053C7A9 /* MineViewController.m in Sources */,
 				F76E00FA1E1646550053C7A9 /* UIViewController+runtime.m in Sources */,
+				F7F844D11E1CE59D00BCE157 /* FileManagerViewController.m in Sources */,
+				F7F844C11E1CE54E00BCE157 /* LoadViewController.m in Sources */,
 				F76E01081E1654190053C7A9 /* DocManager.m in Sources */,
+				F7F844D61E1CE5C100BCE157 /* CloudViewController.m in Sources */,
 				F76E01051E1654100053C7A9 /* Tools.m in Sources */,
+				F7F844B41E1CE32600BCE157 /* TabBarController.m in Sources */,
 				F77CF66B1DD591F10080EEB1 /* AppDelegate.m in Sources */,
 				F73B3CDF1E1B4E33001AB7C7 /* GuideViewController.m in Sources */,
 				F77CF6681DD591F10080EEB1 /* main.m in Sources */,
@@ -598,12 +648,12 @@
 				F781C63A1E1A5FDC00C1ADD6 /* BaseViewController.m in Sources */,
 				F76E01131E1654A80053C7A9 /* SideViewController.m in Sources */,
 				F76E01181E1654B60053C7A9 /* LoginViewController.m in Sources */,
-				F781C6421E1A871000C1ADD6 /* MainViewController.m in Sources */,
 				F781C63E1E1A68D200C1ADD6 /* NSObject+Json.m in Sources */,
 				F7F8449F1E1CCDF700BCE157 /* StartInitialization.m in Sources */,
 				F781C6521E1A8B0A00C1ADD6 /* NotificationKey.m in Sources */,
-				F76E01201E1654D20053C7A9 /* RootViewController.m in Sources */,
 				F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */,
+				F7F844B01E1CE02600BCE157 /* RootViewController.m in Sources */,
+				F7F844C61E1CE55F00BCE157 /* AlbumViewController.m in Sources */,
 				F7F844A51E1CD67C00BCE157 /* LeftViewController.m in Sources */,
 				F781C64B1E1A899C00C1ADD6 /* UserDefaultsKey.m in Sources */,
 				F76E01001E1652730053C7A9 /* NavigationController.m in Sources */,

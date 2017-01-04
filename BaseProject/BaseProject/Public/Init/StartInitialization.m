@@ -43,6 +43,11 @@
 #pragma mark -
 
 - (void)startup:(STARTUP_MODE)mode {
+    
+#warning ======== 跳过引导页和登录页
+//    [self showRootVC];
+//    return;
+    
     switch (mode) {
         case STARTUP_MODE_LOGIN_MUST:
         {
@@ -101,7 +106,7 @@
     UIWindow *window;
     UIWindow *guideWindow;
     for (UIWindow *view in [kApplication windows]) {
-        if (100 == view.tag) {
+        if (99 == view.tag) {
             guideWindow = view;
         }
         if (88 == view.tag) {
@@ -113,7 +118,6 @@
         guideWindow.windowLevel = UIWindowLevelNormal;
         [guideWindow resignKeyWindow];
         guideWindow = nil;
-        NSLog(@"%@", guideWindow);
     }
     
     [window makeKeyAndVisible];
@@ -126,7 +130,7 @@
 - (void)showGuideVC {
     UIWindow *guideWindow;
     for (UIWindow *view in [kApplication windows]) {
-        if (100 == view.tag) {
+        if (99 == view.tag) {
             guideWindow = view;
         }
     }

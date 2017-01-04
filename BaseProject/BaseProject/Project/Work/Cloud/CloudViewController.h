@@ -1,13 +1,13 @@
 //
-//  MainViewController.h
+//  CloudViewController.h
 //  BaseProject
 //
-//  Created by Wmy on 2017/1/2.
+//  Created by Wmy on 2017/1/4.
 //  Copyright © 2017年 Wmy. All rights reserved.
 //
 
 #import "BaseViewController.h"
 
-@interface MainViewController : BaseViewController
+@interface CloudViewController : BaseViewController
 
 @end

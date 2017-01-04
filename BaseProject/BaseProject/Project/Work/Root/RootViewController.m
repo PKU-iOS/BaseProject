@@ -10,13 +10,13 @@
 #import "NavigationController.h"
 #import "SideViewController.h"
 #import "RightViewController.h"
-#import "MainViewController.h"
+#import "TabBarController.h"
 
 
 @interface RootViewController ()
 @property (nonatomic, strong) SideViewController *sideVC;
 @property (nonatomic, strong) RightViewController *rightVC;
-@property (nonatomic, strong) MainViewController *mainVC;
+@property (nonatomic, strong) TabBarController *tabbarC;
 @end
 
 @implementation RootViewController
@@ -29,6 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"Root";
+    [self.navigationController setNavigationBarHidden:YES];
     
     [self addObserver];
     [self addSideVC];
@@ -81,7 +82,7 @@
 - (SideViewController *)sideVC {
     if (_sideVC == nil) {
         _sideVC = [[SideViewController alloc] init];
-        _sideVC.rootViewController  = self.mainVC;
+        _sideVC.rootViewController  = self.tabbarC;
         _sideVC.rightViewController = self.rightVC;
     }
     return _sideVC;
@@ -94,11 +95,11 @@
     return _rightVC;
 }
 
-- (MainViewController *)mainVC {
-    if (_mainVC == nil) {
-        _mainVC = [[MainViewController alloc] init];
+- (TabBarController *)tabbarC {
+    if (_tabbarC == nil) {
+        _tabbarC = [[TabBarController alloc] init];
     }
-    return _mainVC;
+    return _tabbarC;
 }
 
 

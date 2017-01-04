@@ -11,43 +11,25 @@
  *  
  *  - 登录使用
  *
+ *              --> Nav : LoginVC --> PreviewVC
+ *             |
+ *  window --> |                                 --> LeftVC
+ *             |                                |
+ *              --> Nav : RootVC --> SideVC --> |--> RightVC
+ *                                              |
+ *                                               --> TabbarVC/HomeVC
  *
- *              --> LoginVC --> PreviewVC                          --> LeftVC
- *             |                                                  |
- *  window --> |                                  --> SideVC  --> |
- *             |                                 |                |
- *              --> Nav : RootVC --> MainVC  --> |                 --> RightVC
+ *
+ *  - 非登录也可使用 需要登录时候单独push登录界面
+ *
+ *                               --> PreviewVC
+ *                              |
+ *  window --> Nav : RootVC --> |                 --> LeftVC
+ *                              |                |
+ *                               --> SideVC  --> |--> RightVC
  *                                               |
  *                                                --> TabbarVC/HomeVC
  *
- *
- *                    --> LoginVC --> PreviewVC         --> LeftVC
- *                   |                                 |
- *  Nav : RootVC --> |                 --> SideVC  --> |
- *                   |                |                |
- *                    --> MainVC  --> |                 --> RightVC
- *                                    |
- *                                     --> TabbarVC/HomeVC
- *
- *
- *  - 非登录也可使用
- *                               --> PreviewVC                     --> LeftVC
- *                              |                                 |
- *  window --> Nav : RootVC --> |                 --> SideVC  --> |
- *                              |                |                |
- *                               --> MainVC  --> |                 --> RightVC
- *                                               |
- *                                                --> TabbarVC/HomeVC
- *
- 
- 
- *                    --> PreviewVC                     --> LeftVC
- *                   |                                 |
- *  Nav : RootVC --> |--> LoginVC      --> SideVC  --> |
- *                   |                |                |
- *                    --> MainVC  --> |                 --> RightVC
- *                                    |
- *                                     --> TabbarVC/HomeVC
  ************************************************************************/
 
 

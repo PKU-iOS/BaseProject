@@ -33,7 +33,7 @@ typedef NS_ENUM(NSUInteger, SideType) {
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.needSwipeShowMenu = YES;
+        self.needSwipeShowMenu = NO;
     }
     return self;
 }
