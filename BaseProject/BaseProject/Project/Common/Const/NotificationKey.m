@@ -20,11 +20,15 @@ NSString *const kNC_LoginVC_ShowNotification = @"NC_LoginVC_ShowNotification";
 NSString *const kNC_LoginVC_RemoveNotification = @"NC_LoginVC_RemoveNotification";
 
 // 显示主视图
-NSString *const kNC_MainVC_ShowNotification = @"NC_MainVC_ShowNotification";
+NSString *const kNC_RootVC_ShowNotification = @"NC_RootVC_ShowNotification";
 // 隐藏主视图
-NSString *const kNC_MainVC_RemoveNotification = @"NC_MainVC_RemoveNotification";
+NSString *const kNC_RootVC_RemoveNotification = @"NC_RootVC_RemoveNotification";
 
 // 显示右抽屉视图
 NSString *const kNC_SideVC_ShowRightNotification = @"NC_SideVC_ShowRightNotification";
 // 隐藏抽屉视图
 NSString *const kNC_SideVC_HideRightNotification = @"NC_SideVC_HideRightNotification";
+
+
+// 登录成功
+NSString *const kNC_Login_SuccessNotification = @"NC_Login_SuccessNotification";

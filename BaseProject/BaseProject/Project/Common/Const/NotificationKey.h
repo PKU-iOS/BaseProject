@@ -20,12 +20,15 @@ UIKIT_EXTERN NSString *const kNC_LoginVC_ShowNotification;
 UIKIT_EXTERN NSString *const kNC_LoginVC_RemoveNotification;
 
 // 显示主视图
-UIKIT_EXTERN NSString *const kNC_MainVC_ShowNotification;
+UIKIT_EXTERN NSString *const kNC_RootVC_ShowNotification;
 // 隐藏主视图
-UIKIT_EXTERN NSString *const kNC_MainVC_RemoveNotification;
+UIKIT_EXTERN NSString *const kNC_RootVC_RemoveNotification;
 
 // 显示右抽屉视图
 UIKIT_EXTERN NSString *const kNC_SideVC_ShowRightNotification;
 // 隐藏抽屉视图
 UIKIT_EXTERN NSString *const kNC_SideVC_HideRightNotification;
+
+// 登录成功
+UIKIT_EXTERN NSString *const kNC_Login_SuccessNotification;
 

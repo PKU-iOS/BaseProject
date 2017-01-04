@@ -1,18 +1,18 @@
 //
-//  PreviewViewController.m
+//  LeftViewController.m
 //  BaseProject
 //
-//  Created by Wmy on 2016/12/30.
-//  Copyright © 2016年 Wmy. All rights reserved.
+//  Created by Wmy on 2017/1/4.
+//  Copyright © 2017年 Wmy. All rights reserved.
 //
 
-#import "PreviewViewController.h"
+#import "LeftViewController.h"
 
-@interface PreviewViewController ()
+@interface LeftViewController ()
 
 @end
 
-@implementation PreviewViewController
+@implementation LeftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

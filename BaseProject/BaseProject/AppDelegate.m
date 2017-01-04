@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "StartInitialization.h"
+
 
 @interface AppDelegate ()
 
@@ -14,9 +16,15 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.guideWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _guideWindow.tag = 100;
+    _window.tag = 88;
+
+    [StartInitialization setStartupMode:STARTUP_MODE_LOGIN_MUST];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
