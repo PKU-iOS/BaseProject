@@ -24,6 +24,7 @@
 
     // 三方
     #import "Masonry.h"
+    #import "ProgressHUD.h"
 
 
 #endif /* PrefixHeader_pch */

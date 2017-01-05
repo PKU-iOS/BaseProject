@@ -1,14 +1,14 @@
 //
 //  ThirdPartService.m
-//  WaveView
+//  FamilyCloud
 //
-//  Created by Wmy on 2016/11/10.
-//  Copyright © 2016年 Wmy. All rights reserved.
+//  Created by Wmy on 2017/1/5.
+//  Copyright © 2017年 Wmy. All rights reserved.
 //
 
-#import "WMY_ThirdPartService.h"
+#import "ThirdPartService.h"
 
-@implementation WMY_ThirdPartService
+@implementation ThirdPartService
 
 + (void)load {
     

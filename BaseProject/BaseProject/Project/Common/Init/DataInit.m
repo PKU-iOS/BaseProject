@@ -1,14 +1,14 @@
 //
-//  WMY_InitializingData.m
-//  WaveView
+//  DataInit.m
+//  FamilyCloud
 //
-//  Created by Wmy on 2016/11/10.
-//  Copyright © 2016年 Wmy. All rights reserved.
+//  Created by Wmy on 2017/1/5.
+//  Copyright © 2017年 Wmy. All rights reserved.
 //
 
-#import "WMY_InitData.h"
+#import "DataInit.h"
 
-@implementation WMY_InitData
+@implementation DataInit
 
 + (void)load {
     static dispatch_once_t onceToken;

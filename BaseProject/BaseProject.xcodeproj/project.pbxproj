@@ -34,10 +34,10 @@
 		F70969371E1DE1D700534EC2 /* WMYDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F70969361E1DE1D700534EC2 /* WMYDatePicker.m */; };
 		F709693B1E1DE1F400534EC2 /* WMYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F709693A1E1DE1F400534EC2 /* WMYWaveView.m */; };
 		F709693F1E1DE26300534EC2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F709693E1E1DE26300534EC2 /* ProgressHUD.m */; };
+		F70969641E1DEA1200534EC2 /* DataInit.m in Sources */ = {isa = PBXBuildFile; fileRef = F70969611E1DEA1200534EC2 /* DataInit.m */; };
+		F70969651E1DEA1200534EC2 /* ThirdPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = F70969631E1DEA1200534EC2 /* ThirdPartService.m */; };
 		F73B3CDF1E1B4E33001AB7C7 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73B3CDD1E1B4E33001AB7C7 /* GuideViewController.m */; };
 		F73B3CE01E1B4E33001AB7C7 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73B3CDE1E1B4E33001AB7C7 /* GuideViewController.xib */; };
-		F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00E31E1645A00053C7A9 /* WMY_InitData.m */; };
-		F76E00EF1E1645A00053C7A9 /* WMY_ThirdPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E00E51E1645A00053C7A9 /* WMY_ThirdPartService.m */; };
 		F76E01051E1654100053C7A9 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01041E1654100053C7A9 /* Tools.m */; };
 		F76E01081E1654190053C7A9 /* DocManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01071E1654190053C7A9 /* DocManager.m */; };
 		F76E01131E1654A80053C7A9 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76E01111E1654A80053C7A9 /* SideViewController.m */; };
@@ -125,13 +125,13 @@
 		F709693A1E1DE1F400534EC2 /* WMYWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMYWaveView.m; sourceTree = "<group>"; };
 		F709693D1E1DE26300534EC2 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		F709693E1E1DE26300534EC2 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		F70969601E1DEA1200534EC2 /* DataInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataInit.h; sourceTree = "<group>"; };
+		F70969611E1DEA1200534EC2 /* DataInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataInit.m; sourceTree = "<group>"; };
+		F70969621E1DEA1200534EC2 /* ThirdPartService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartService.h; sourceTree = "<group>"; };
+		F70969631E1DEA1200534EC2 /* ThirdPartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPartService.m; sourceTree = "<group>"; };
 		F73B3CDC1E1B4E33001AB7C7 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
 		F73B3CDD1E1B4E33001AB7C7 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		F73B3CDE1E1B4E33001AB7C7 /* GuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideViewController.xib; sourceTree = "<group>"; };
-		F76E00E21E1645A00053C7A9 /* WMY_InitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMY_InitData.h; sourceTree = "<group>"; };
-		F76E00E31E1645A00053C7A9 /* WMY_InitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMY_InitData.m; sourceTree = "<group>"; };
-		F76E00E41E1645A00053C7A9 /* WMY_ThirdPartService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMY_ThirdPartService.h; sourceTree = "<group>"; };
-		F76E00E51E1645A00053C7A9 /* WMY_ThirdPartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMY_ThirdPartService.m; sourceTree = "<group>"; };
 		F76E01011E1653570053C7A9 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
 		F76E01031E1654100053C7A9 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		F76E01041E1654100053C7A9 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
@@ -456,10 +456,10 @@
 		F76E00E11E1645A00053C7A9 /* Init */ = {
 			isa = PBXGroup;
 			children = (
-				F76E00E21E1645A00053C7A9 /* WMY_InitData.h */,
-				F76E00E31E1645A00053C7A9 /* WMY_InitData.m */,
-				F76E00E41E1645A00053C7A9 /* WMY_ThirdPartService.h */,
-				F76E00E51E1645A00053C7A9 /* WMY_ThirdPartService.m */,
+				F70969601E1DEA1200534EC2 /* DataInit.h */,
+				F70969611E1DEA1200534EC2 /* DataInit.m */,
+				F70969621E1DEA1200534EC2 /* ThirdPartService.h */,
+				F70969631E1DEA1200534EC2 /* ThirdPartService.m */,
 			);
 			path = Init;
 			sourceTree = "<group>";
@@ -900,7 +900,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76E00EF1E1645A00053C7A9 /* WMY_ThirdPartService.m in Sources */,
 				F7F844D11E1CE59D00BCE157 /* FileManagerViewController.m in Sources */,
 				F7F844C11E1CE54E00BCE157 /* LoadViewController.m in Sources */,
 				F76E01081E1654190053C7A9 /* DocManager.m in Sources */,
@@ -908,6 +907,7 @@
 				F70968B11E1DDA4E00534EC2 /* NSPredicate+Extension.m in Sources */,
 				F70968C01E1DDD5E00534EC2 /* NavigationController.m in Sources */,
 				F709693B1E1DE1F400534EC2 /* WMYWaveView.m in Sources */,
+				F70969641E1DEA1200534EC2 /* DataInit.m in Sources */,
 				F70969291E1DE03100534EC2 /* MsgPlaySound.m in Sources */,
 				F7F844D61E1CE5C100BCE157 /* CloudViewController.m in Sources */,
 				F70969231E1DDF4200534EC2 /* PickerView.m in Sources */,
@@ -928,6 +928,7 @@
 				F70968B41E1DDA4E00534EC2 /* UIBarButtonItem+Extension.m in Sources */,
 				F76E01131E1654A80053C7A9 /* SideViewController.m in Sources */,
 				F709693F1E1DE26300534EC2 /* ProgressHUD.m in Sources */,
+				F70969651E1DEA1200534EC2 /* ThirdPartService.m in Sources */,
 				F70968BF1E1DDD5E00534EC2 /* BaseViewController.m in Sources */,
 				F76E01181E1654B60053C7A9 /* LoginViewController.m in Sources */,
 				F70968B71E1DDA4E00534EC2 /* UIViewController+runtime.m in Sources */,
@@ -938,7 +939,6 @@
 				F70968B51E1DDA4E00534EC2 /* UIImage+Extension.m in Sources */,
 				F70969371E1DE1D700534EC2 /* WMYDatePicker.m in Sources */,
 				F70968AF1E1DDA4E00534EC2 /* DateFormatter.m in Sources */,
-				F76E00EE1E1645A00053C7A9 /* WMY_InitData.m in Sources */,
 				F70968C11E1DDD5E00534EC2 /* TabBarController.m in Sources */,
 				F7F844B01E1CE02600BCE157 /* RootViewController.m in Sources */,
 				F70968AE1E1DDA4E00534EC2 /* NSDictionary+Json.m in Sources */,
