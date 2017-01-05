@@ -14,6 +14,9 @@
     #import <Foundation/Foundation.h>
 
     #import "AppDefine.h"
+    #import "CategoryHeader.h"
+    #import "Tools.h"
+    #import "DocManager.h"
 
     #import "ApiKey.h"
     #import "HttpDefine.h"
